@@ -8,15 +8,24 @@ Download the 16gig SD card image here :
 https://www.dropbox.com/s/nj4xrppf1lgmr4n/inverterpizw.img.gz?dl=0
 
 Flash the card with the image.
+
 Connect the inverter to the Pi serial port. Use an RS232 adapter for Tesla boards or direct connect for Heubner versions.
+
 Connect a power supply.
+
 Boot up the pi and inverter boards.
+
 WiFi access point called "Inverter" will apear.
+
 Connect to this with any device (phone,laptop,tablet,Commodore 64).
+
 Passphrase is "inverter123".
+
 Point a browser to 192.168.42.1 and the web interface should pop up.
 
+
 Instruction PDFs in the repo.
+
 
 Enjoy.
 
