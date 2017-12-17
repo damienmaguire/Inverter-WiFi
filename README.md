@@ -9,6 +9,10 @@ https://www.dropbox.com/s/nj4xrppf1lgmr4n/inverterpizw.img.gz?dl=0
 
 Flash the card with the image.
 
+
+If you don't know how here is a good starting point : https://www.raspberrypi.org/documentation/installation/installing-images/
+
+
 Connect the inverter to the Pi serial port. Use an RS232 adapter for Tesla boards or direct connect for Heubner versions.
 
 Connect a power supply.
