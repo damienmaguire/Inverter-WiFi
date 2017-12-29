@@ -53,7 +53,9 @@ sudo systemctl enable serial-getty@ttyAMA0.service
 sudo usermod -a -G dialout www-data
 sudo usermod -a -G tty www-data
 #UART on the Pi-3 you will need to disable bluetooth
-#sudo sh -c "sudo echo 'enable_uart=1' >> /boot/config.txt"
+sudo sh -c "sudo echo '
+enable_uart=1
+dtoverlay=pi3-miniuart-bt' >> /boot/config.txt"
 
 # [ TESTING ]
 #stty -a -F /dev/ttyAMA0
